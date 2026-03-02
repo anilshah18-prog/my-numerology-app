@@ -27,15 +27,15 @@ graha_data = {
 
 # 3. Maitri (Compatibility) Data
 maitri_data = {
-    1: {"Friendly": "5, 6", "Enemy": "3, 7, 9", "Sam": "2, 4, 8"},
-    2: {"Friendly": "7", "Enemy": "5, 8", "Sam": "1, 3, 4, 6, 9"},
-    3: {"Friendly": "7", "Enemy": "1, 5", "Sam": "2, 4, 6, 8, 9"},
-    4: {"Friendly": "7", "Enemy": "6, 8", "Sam": "1, 2, 3, 5, 9"},
-    5: {"Friendly": "1, 8", "Enemy": "2, 3, 7", "Sam": "4, 6, 9"},
-    6: {"Friendly": "1, 8", "Enemy": "4, 7, 9", "Sam": "2, 3, 5"},
-    7: {"Friendly": "2, 3, 4, 9", "Enemy": "1, 5, 6, 8", "Sam": "None"},
-    8: {"Friendly": "5, 6", "Enemy": "2, 4, 7", "Sam": "1, 3, 9"},
-    9: {"Friendly": "7", "Enemy": "1, 6", "Sam": "2, 3, 4, 5, 8"}
+    1: {"Friendly": "5, 6", "Enemy": "3, 7, 9", "Neutral": "2, 4, 8"},
+    2: {"Friendly": "7", "Enemy": "5, 8", "Neutral": "1, 3, 4, 6, 9"},
+    3: {"Friendly": "7", "Enemy": "1, 5", "Neutral": "2, 4, 6, 8, 9"},
+    4: {"Friendly": "7", "Enemy": "6, 8", "Neutral": "1, 2, 3, 5, 9"},
+    5: {"Friendly": "1, 8", "Enemy": "2, 3, 7", "Neutral": "4, 6, 9"},
+    6: {"Friendly": "1, 8", "Enemy": "4, 7, 9", "Neutral": "2, 3, 5"},
+    7: {"Friendly": "2, 3, 4, 9", "Enemy": "1, 5, 6, 8", "Neutral": "None"},
+    8: {"Friendly": "5, 6", "Enemy": "2, 4, 7", "Neutral": "1, 3, 9"},
+    9: {"Friendly": "7", "Enemy": "1, 6", "Neutral": "2, 3, 4, 5, 8"}
 }
 
 # --- GUI Interface ---
