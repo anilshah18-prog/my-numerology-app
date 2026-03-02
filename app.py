@@ -14,28 +14,28 @@ char_map = {
 
 # 2. Planetary (Graha) Data
 graha_data = {
-    1: "Sun (Surya)",
-    2: "Moon (Chandra) - Negative",
-    3: "Jupiter (Guru)",
-    4: "Negative Surya+Harshal",
-    5: "Mercury (Budh)",
-    6: "Venus (Shukra)",
-    7: "+ Chandra + Neptune",
-    8: "Saturn (Shani)",
-    9: "Mars (Mangal)"
+    1: "Sun (Surya) Rashi Shih",
+    2: "Moon (Chandra) - Negative Rashi Kark",
+    3: "Jupiter (Guru) Rashi Meen, Dhan",
+    4: "Negative Surya+Harshal Rashi Shih",
+    5: "Mercury (Budh) Rashi Mithun, Kanya",
+    6: "Venus (Shukra) Rashi Tula, Vrushabh",
+    7: "+ Chandra + Neptune Rashi Kark",
+    8: "Saturn (Shani) Rashi Makar, Kumbh",
+    9: "Mars (Mangal) Rashi Mesh, Vrushik"
 }
 
 # 3. Maitri (Compatibility) Data
 maitri_data = {
-    1: {"Friendly": "5, 6", "Neutral": "3, 7, 9", "Enemy": "2, 4, 8"},
-    2: {"Friendly": "7", "Neutral": "5, 8", "Enemy": "1, 3, 4, 6, 9"},
-    3: {"Friendly": "7", "Neutral": "1, 5", "Enemy": "2, 4, 6, 8, 9"},
-    4: {"Friendly": "7", "Neutral": "6, 8", "Enemy": "1, 2, 3, 5, 9"},
-    5: {"Friendly": "1, 8", "Neutral": "2, 3, 7", "Enemy": "4, 6, 9"},
-    6: {"Friendly": "1, 8", "Neutral": "4, 7, 9", "Enemy": "2, 3, 5"},
-    7: {"Friendly": "2, 3, 5, 9", "Neutral": "1, 5, 6, 8", "Enemy": "None"},
-    8: {"Friendly": "5, 6", "Neutral": "2, 4, 7", "Enemy": "1, 3, 9"},
-    9: {"Friendly": "7", "Neutral": "4, 6", "Enemy": "2, 3, 4, 5, 8"}
+    1: {"Friendly": "5, 6", "Enemy": "3, 7, 9", "Sam": "2, 4, 8"},
+    2: {"Friendly": "7", "Enemy": "5, 8", "Sam": "1, 3, 4, 6, 9"},
+    3: {"Friendly": "7", "Enemy": "1, 5", "Sam": "2, 4, 6, 8, 9"},
+    4: {"Friendly": "7", "Enemy": "6, 8", "Sam": "1, 2, 3, 5, 9"},
+    5: {"Friendly": "1, 8", "Enemy": "2, 3, 7", "Sam": "4, 6, 9"},
+    6: {"Friendly": "1, 8", "Enemy": "4, 7, 9", "Sam": "2, 3, 5"},
+    7: {"Friendly": "2, 3, 4, 9", "Enemy": "1, 5, 6, 8", "Sam": "None"},
+    8: {"Friendly": "5, 6", "Enemy": "2, 4, 7", "Sam": "1, 3, 9"},
+    9: {"Friendly": "7", "Enemy": "1, 6", "Sam": "2, 3, 4, 5, 8"}
 }
 
 # --- GUI Interface ---
