@@ -17,10 +17,10 @@ graha_data = {
     1: "Sun (Surya)",
     2: "Moon (Chandra) - Negative",
     3: "Jupiter (Guru)",
-    4: "Rahu (Sun Negative)",
+    4: "Negative Surya+Harshal",
     5: "Mercury (Budh)",
     6: "Venus (Shukra)",
-    7: "Ketu (Neptune)",
+    7: "+ Chandra + Neptune",
     8: "Saturn (Shani)",
     9: "Mars (Mangal)"
 }
